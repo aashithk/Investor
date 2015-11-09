@@ -33,7 +33,7 @@ public class svm_predict {
 		return Integer.parseInt(s);
 	}
 
-	private static void predict(BufferedReader input, DataOutputStream output, svm_model model, int predict_probability) throws IOException
+	private static void predict(BufferedReader input, DataOutputStream output, svm_model model, int predict_probability,PrintWriter writer) throws IOException
 	{
 		int correct = 0;
 		int total = 0;
@@ -94,7 +94,7 @@ public class svm_predict {
 				v = svm.svm_predict(model,x);
 				output.writeBytes(v+"\n");
 			}
-			System.out.println("Prediction: "+ v+" Target: "+ target);
+			// System.out.println("Prediction: "+ v+" Target: "+ target);
 
 			if(v == target)
 				++correct;
@@ -109,7 +109,10 @@ public class svm_predict {
 		if(svm_type == svm_parameter.EPSILON_SVR ||
 		   svm_type == svm_parameter.NU_SVR)
 		{
-
+			Double MSE = error/total;
+			Double SCC =  ((total*sumvy-sumv*sumy)*(total*sumvy-sumv*sumy))/
+					((total*sumvv-sumv*sumv)*(total*sumyy-sumy*sumy));
+			writer.println(MSE+","+total+","+SCC);
 			svm_predict.info("Mean squared error = "+error/total+" (regression)\n");
 			svm_predict.info("Squared correlation coefficient = "+
 				 ((total*sumvy-sumv*sumy)*(total*sumvy-sumv*sumy))/
@@ -130,18 +133,15 @@ public class svm_predict {
 		System.exit(1);
 	}
 
-	public static void main(String argv[]) throws IOException
-	{
-		int i, predict_probability=0;
-        	svm_print_string = svm_print_stdout;
+	public static void main(String argv[]) throws IOException {
+		int i, predict_probability = 0;
+		svm_print_string = svm_print_stdout;
 
 		// parse options
-		for(i=0;i<argv.length;i++)
-		{
-			if(argv[i].charAt(0) != '-') break;
+		for (i = 0; i < argv.length; i++) {
+			if (argv[i].charAt(0) != '-') break;
 			++i;
-			switch(argv[i-1].charAt(1))
-			{
+			switch (argv[i - 1].charAt(1)) {
 				case 'b':
 					predict_probability = atoi(argv[i]);
 					break;
@@ -150,7 +150,7 @@ public class svm_predict {
 					i--;
 					break;
 				default:
-					System.err.print("Unknown option: " + argv[i-1] + "\n");
+					System.err.print("Unknown option: " + argv[i - 1] + "\n");
 					exit_with_help();
 			}
 		}
@@ -165,45 +165,63 @@ public class svm_predict {
 		String model_file = argv[i+1];
 		String output_file = argv[i+2];
 		*/
-		String test_file = "testfile";
-		String model_file = "test.model";
-		String output_file = "test.output";
-		try 
-		{
-			BufferedReader input = new BufferedReader(new FileReader("data/"+test_file));
-			DataOutputStream output = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("data/"+output_file)));
-			svm_model model = svm.svm_load_model("data/"+model_file);
-			if (model == null)
-			{
-				System.err.print("can't open model file "+argv[i+1]+"\n");
-				System.exit(1);
+		//String test_file = "testfile";
+		//String model_file = "test.model";
+		//String output_file = "test.output";
+
+		// Next step : Write code to run prediction on all the test files
+		// Then ensure that code in getActualPrice converts all files into their actual predicted value.
+		// Use this predicted value to see if the target was hit in the next 5 days.
+		// If so, count as profit. Otherwise take the closing price on 5th day - closing price on the given day as profit/loss.
+
+		BufferedReader sbr = new BufferedReader(new FileReader("data/predictionProcessingData.txt"));
+		PrintWriter writer = new PrintWriter("data/AccuracyMeasure.txt", "UTF-8");
+		String sCurrentLine = null;
+		while ((sCurrentLine = sbr.readLine()) != null) {
+
+			String[] arr = sCurrentLine.split(",");
+			String ticker = arr[0];
+			String sector = arr[1];
+			File f = new File("data/FinalTestData/" + ticker);
+			if(!f.exists()) {
+				continue;
 			}
-			if(predict_probability == 1)
-			{
-				if(svm.svm_check_probability_model(model)==0)
-				{
-					System.err.print("Model does not support probability estimates\n");
+			String test_file = "FinalTestData/"+ticker;
+			String model_file = "PredictionModel/Sector"+sector+"StockPrediction.model";
+			String output_file = "TempPredictions/"+ticker+".output";
+			try {
+				BufferedReader input = new BufferedReader(new FileReader("data/" + test_file));
+				DataOutputStream output = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("data/" + output_file)));
+				svm_model model = svm.svm_load_model("data/" + model_file);
+				if (model == null) {
+					System.err.print("can't open model file " + argv[i + 1] + "\n");
 					System.exit(1);
 				}
-			}
-			else
-			{
-				if(svm.svm_check_probability_model(model)!=0)
-				{
-					svm_predict.info("Model supports probability estimates, but disabled in prediction.\n");
+				if (predict_probability == 1) {
+					if (svm.svm_check_probability_model(model) == 0) {
+						System.err.print("Model does not support probability estimates\n");
+						System.exit(1);
+					}
+				} else {
+					if (svm.svm_check_probability_model(model) != 0) {
+						svm_predict.info("Model supports probability estimates, but disabled in prediction.\n");
+					}
 				}
+				writer.print(ticker+",");
+				System.out.println(ticker);
+				predict(input, output, model, predict_probability, writer);
+				input.close();
+				output.close();
+			} catch (FileNotFoundException e) {
+				System.out.println(ticker);
+				exit_with_help();
+			} catch (ArrayIndexOutOfBoundsException e) {
+				System.out.println(ticker);
+				exit_with_help();
 			}
-			predict(input,output,model,predict_probability);
-			input.close();
-			output.close();
-		} 
-		catch(FileNotFoundException e) 
-		{
-			exit_with_help();
+
+
 		}
-		catch(ArrayIndexOutOfBoundsException e) 
-		{
-			exit_with_help();
-		}
+		writer.close();
 	}
 }

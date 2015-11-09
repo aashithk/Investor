@@ -88,27 +88,35 @@ public class svm_train {
 			System.out.print("Cross Validation Accuracy = "+100.0*total_correct/prob.l+"%\n");
 		}
 	}
-	
-	public void run(String argv[]) throws IOException
-	{
-		parse_command_line(argv);
-		read_problem();
-		error_msg = svm.svm_check_parameter(prob,param);
 
-		if(error_msg != null)
-		{
-			System.err.print("ERROR: "+error_msg+"\n");
+	/*
+	 * Re-write the SVM to get the model for each sector
+	 */
+	public void run(String argv[]) throws IOException {
+
+		for(int i=1;i<=214;i++) {
+		System.out.println("Started SVR for sector " + i);
+		//input : "FinalTrainingData/TrainingFile1";
+		//output : "PredictionModel/Sector1StockPrediction.model";
+		String input = "FinalTrainingData/TrainingFile"+i;
+		String output = "PredictionModel/Sector"+i+"StockPrediction.model";
+		parse_command_line(argv,input,output);
+		read_problem();
+		error_msg = svm.svm_check_parameter(prob, param);
+
+		if (error_msg != null) {
+			System.err.print("ERROR: " + error_msg + "\n");
 			System.exit(1);
 		}
 
-		if(cross_validation != 0)
-		{
+		if (cross_validation != 0) {
 			do_cross_validation();
+		} else {
+			model = svm.svm_train(prob, param);
+			svm.svm_save_model(model_file_name, model);
 		}
-		else
-		{
-			model = svm.svm_train(prob,param);
-			svm.svm_save_model(model_file_name,model);
+
+		System.out.println ("Done with SVR for sector "+i);
 		}
 	}
 
@@ -134,7 +142,7 @@ public class svm_train {
 		return Integer.parseInt(s);
 	}
 
-	private void parse_command_line(String argv[])
+	private void parse_command_line(String argv[],String input,String output)
 	{
 		int i;
 		svm_print_interface print_func = null;	// default printing to stdout
@@ -263,8 +271,8 @@ public class svm_train {
 		if(		param.svm_type == svm_parameter.EPSILON_SVR) {
 			System.out.println("****************************Here***************************");
 		}
-		input_file_name = "test";
-		model_file_name = "test.model";
+		input_file_name = input; //"FinalTrainingData/TrainingFile1";
+		model_file_name = output; //"PredictionModel/Sector1StockPrediction.model";
 	}
 
 	// read in a problem (in svmlight format)
@@ -282,14 +290,17 @@ public class svm_train {
 
 			StringTokenizer st = new StringTokenizer(line," \t\n\r\f:");
 
-			vy.addElement(atof(st.nextToken()));
+			//vy.addElement(atof(st.nextToken()));
+			vy.addElement(Double.parseDouble(st.nextToken()));
 			int m = st.countTokens()/2;
 			svm_node[] x = new svm_node[m];
 			for(int j=0;j<m;j++)
 			{
 				x[j] = new svm_node();
-				x[j].index = atoi(st.nextToken());
-				x[j].value = atof(st.nextToken());
+				//x[j].index = atoi(st.nextToken());
+				x[j].index = Integer.parseInt(st.nextToken());
+				//x[j].value = atof(st.nextToken());
+				x[j].value = Double.parseDouble(st.nextToken());
 			}
 			if(m>0) max_index = Math.max(max_index, x[m-1].index);
 			vx.addElement(x);

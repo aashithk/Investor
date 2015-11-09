@@ -90,7 +90,55 @@ public class getStockData {
     }
 
 
+    static ArrayList<Row> getTestStockData(String symbol) {
+        ArrayList<Row> res = new ArrayList<Row>();
 
+        try {
+            URL myURL = new URL("http://ichart.finance.yahoo.com/table.csv?s="+symbol+"&g=d&a=0&b=1&c=2013");
+            InputStream stream = myURL.openStream();
+            BufferedReader reader = new BufferedReader(new InputStreamReader(myURL.openStream()));
+            String line=null;
+            ArrayList<String> arr = new ArrayList<String>();
+
+            int current = 0;
+            while ((line = reader.readLine()) != null) {
+                if(current == 0)
+                {
+                    current++;
+                    continue;
+                }
+                arr.add(line);
+            }
+
+            for( String s :  arr) {
+
+                String[] tokens = s.split(",");
+                String [] d = tokens[0].split("-");
+                Double month=Double.parseDouble(d[1]);
+                Double date=Double.parseDouble(d[2]);
+                Double open=Double.parseDouble(tokens[1]);
+                Double high=Double.parseDouble(tokens[2]);
+                Double low=Double.parseDouble(tokens[3]);
+                Double close=Double.parseDouble(tokens[4]);
+                Double volume=Double.parseDouble(tokens[5]);
+                Row each = new Row(month,date,open,high,low,close,volume);
+                each.calculateChange();
+                res.add(each);
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.print(e.toString());
+        }
+        return res;
+    }
+
+
+    /*
+    * Original get data function to get data on over 25000 stock symbols found in Yahoo's Database before
+    * processing and filtering the dataset.
+    * Can read from Valid tickers file for future use cases
+     */
     static void getAllSymbolsData()
     {
         try{
@@ -118,12 +166,40 @@ public class getStockData {
         }
 
     }
+    /*
+    *   Get all data necessary to test the model for valid tickers
+    */
+    static void getAllValidSymbolsTestData()
+    {
+        try{
+            BufferedReader br = new BufferedReader(new FileReader("data/predictionProcessingData.txt"));
+            String sCurrentLine;
+            int record= 0;
+            while ((sCurrentLine = br.readLine()) != null) {
+                String [] arr = sCurrentLine.split(",");
+                String ticker = arr[0];
+                ArrayList<Row> temp = getTestStockData(ticker);
+                PrintWriter writer = new PrintWriter("data/TestStockData/"+ticker, "UTF-8");
+                for(Row row: temp) {
+                    writer.println(row);
+                }
+                writer.close();
+                System.out.println(++record + "  " + ticker + "  " + temp.size());
+
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.print(e.toString());
+        }
+
+    }
     public static void main(String[] args)
     {
 
         // example.getStockData("AAPL");
         // getAllSymbolsData();
-
+        getAllValidSymbolsTestData();
 
     }
 }

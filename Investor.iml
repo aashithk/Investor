@@ -5,6 +5,16 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libsvm-3.20" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/data/FinalPredictions" />
+      <excludeFolder url="file://$MODULE_DIR$/data/FinalTestData" />
+      <excludeFolder url="file://$MODULE_DIR$/data/FinalTrainingData" />
+      <excludeFolder url="file://$MODULE_DIR$/data/PredictionModel" />
+      <excludeFolder url="file://$MODULE_DIR$/data/Predictions" />
+      <excludeFolder url="file://$MODULE_DIR$/data/TempPredictions" />
+      <excludeFolder url="file://$MODULE_DIR$/data/TestStockData" />
+      <excludeFolder url="file://$MODULE_DIR$/data/cleanedFilteredStockData" />
+      <excludeFolder url="file://$MODULE_DIR$/data/cleanedFilteredTestStockData" />
+      <excludeFolder url="file://$MODULE_DIR$/data/stockData" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

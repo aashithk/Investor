@@ -1,0 +1,38 @@
+PAR,11
+SES,19
+SAO,30
+MEX,22
+VAN,18
+Lumbe,32
+BRU,26
+PCX,35
+PNK,7
+OBB,10
+ASE,13
+Air Service,25
+BUE,29
+STU,14
+BSE,23
+LSE,5
+Specialty Retai,36
+DUS,16
+Discoun,31
+HKG,15
+NSI,21
+ASX,1
+NYQ,3
+MUN,8
+BER,12
+Recreational Good,34
+MIL,27
+Movie Productio,33
+FRA,9
+HAN,28
+NMS,2
+NGM,4
+GER,20
+Tobacco Product,37
+TOR,6
+NZE,24
+NCM,17
+Wholesal,38
