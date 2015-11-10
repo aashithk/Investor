@@ -1,0 +1,1713 @@
+Started SVR for sector 1
+****************************Here***************************
+*
+optimization finished, #iter = 642
+nu = 0.004844429377872052
+obj = -15.267603721749493, rho = -0.46624917054615383
+nSV = 314, nBSV = 296
+Done with SVR for sector 1
+Started SVR for sector 2
+****************************Here***************************
+.*
+optimization finished, #iter = 1512
+nu = 0.01184271705539797
+obj = -46.59011190954947, rho = -0.5758650655365051
+nSV = 768, nBSV = 725
+Done with SVR for sector 2
+Started SVR for sector 3
+****************************Here***************************
+..*
+optimization finished, #iter = 2120
+nu = 0.007526522380827272
+obj = -79.96010965500656, rho = -0.2891947387869893
+nSV = 1161, nBSV = 1109
+Done with SVR for sector 3
+Started SVR for sector 4
+****************************Here***************************
+..*
+optimization finished, #iter = 2381
+nu = 0.005695759811868045
+obj = -97.93692007246506, rho = -0.11802329149021516
+nSV = 1444, nBSV = 1397
+Done with SVR for sector 4
+Started SVR for sector 5
+****************************Here***************************
+.*
+optimization finished, #iter = 1816
+nu = 0.008016159660206221
+obj = -54.22486455014632, rho = -0.5551119412236712
+nSV = 1106, nBSV = 1060
+Done with SVR for sector 5
+Started SVR for sector 6
+****************************Here***************************
+.*
+optimization finished, #iter = 1594
+nu = 0.006947089063229797
+obj = -60.95005387589265, rho = -0.41131863632178495
+nSV = 1029, nBSV = 985
+Done with SVR for sector 6
+Started SVR for sector 7
+****************************Here***************************
+.*
+optimization finished, #iter = 1115
+nu = 0.008700273889138703
+obj = -44.23270669030122, rho = -0.5801185619105541
+nSV = 659, nBSV = 631
+Done with SVR for sector 7
+Started SVR for sector 8
+****************************Here***************************
+*
+optimization finished, #iter = 840
+nu = 0.004989554440192337
+obj = -17.25592841016849, rho = -0.4418325764426154
+nSV = 338, nBSV = 305
+Done with SVR for sector 8
+Started SVR for sector 9
+****************************Here***************************
+.*
+optimization finished, #iter = 1449
+nu = 0.003568945406316307
+obj = -55.41431229492315, rho = -0.4327136976397831
+nSV = 842, nBSV = 788
+Done with SVR for sector 9
+Started SVR for sector 10
+****************************Here***************************
+*
+optimization finished, #iter = 162
+nu = 0.006212655077219582
+obj = -7.813211745327629, rho = -0.2980119879903797
+nSV = 72, nBSV = 58
+Done with SVR for sector 10
+Started SVR for sector 11
+****************************Here***************************
+.......*
+optimization finished, #iter = 7141
+nu = 0.012928040968008028
+obj = -394.49728722214974, rho = -0.08110711402746715
+nSV = 4846, nBSV = 4749
+Done with SVR for sector 11
+Started SVR for sector 12
+****************************Here***************************
+..........*
+optimization finished, #iter = 10928
+nu = 0.014797944675176228
+obj = -682.22751617495, rho = 0.1664685626584357
+nSV = 9357, nBSV = 9223
+Done with SVR for sector 12
+Started SVR for sector 13
+****************************Here***************************
+*
+optimization finished, #iter = 919
+nu = 0.0056697219448430735
+obj = -33.94482850713338, rho = -0.4105371747990797
+nSV = 470, nBSV = 434
+Done with SVR for sector 13
+Started SVR for sector 14
+****************************Here***************************
+.*
+optimization finished, #iter = 1804
+nu = 0.0053082738419392445
+obj = -68.46527748538384, rho = -0.24097794164595976
+nSV = 1041, nBSV = 997
+Done with SVR for sector 14
+Started SVR for sector 15
+****************************Here***************************
+...*
+optimization finished, #iter = 3435
+nu = 0.005434636285289975
+obj = -143.91042419312203, rho = -0.33895335567973717
+nSV = 2030, nBSV = 1959
+Done with SVR for sector 15
+Started SVR for sector 16
+****************************Here***************************
+*
+optimization finished, #iter = 98
+nu = 0.001804264690061743
+obj = -1.8118672343268412, rho = -0.44745063418116016
+nSV = 46, nBSV = 38
+Done with SVR for sector 16
+Started SVR for sector 17
+****************************Here***************************
+*
+optimization finished, #iter = 274
+nu = 0.0053926655670836115
+obj = -7.5176192981734715, rho = -0.3949458016871062
+nSV = 105, nBSV = 84
+Done with SVR for sector 17
+Started SVR for sector 18
+****************************Here***************************
+*
+optimization finished, #iter = 254
+nu = 0.017723250483070902
+obj = -5.801296210386027, rho = -0.46054049256301527
+nSV = 84, nBSV = 69
+Done with SVR for sector 18
+Started SVR for sector 19
+****************************Here***************************
+.*
+optimization finished, #iter = 1079
+nu = 0.005782147221010167
+obj = -27.578776784890795, rho = -0.4161617851583808
+nSV = 506, nBSV = 472
+Done with SVR for sector 19
+Started SVR for sector 20
+****************************Here***************************
+..*
+optimization finished, #iter = 2537
+nu = 0.009245069070437113
+obj = -107.4445261813785, rho = 0.003657695501295095
+nSV = 1300, nBSV = 1241
+Done with SVR for sector 20
+Started SVR for sector 21
+****************************Here***************************
+.*
+optimization finished, #iter = 1460
+nu = 0.009049704949284641
+obj = -40.1150758631135, rho = -0.21529340829792395
+nSV = 738, nBSV = 698
+Done with SVR for sector 21
+Started SVR for sector 22
+****************************Here***************************
+....
+..............*
+optimization finished, #iter = 18733
+nu = 0.01411356540294968
+obj = -1135.0854538231354, rho = 0.12143286699633951
+nSV = 14885, nBSV = 14702
+Done with SVR for sector 22
+Started SVR for sector 23
+****************************Here***************************
+*
+optimization finished, #iter = 407
+nu = 0.004518541630197955
+obj = -11.883731861618891, rho = -0.44899114204650875
+nSV = 236, nBSV = 222
+Done with SVR for sector 23
+Started SVR for sector 24
+****************************Here***************************
+.*
+optimization finished, #iter = 1866
+nu = 0.006836863544267809
+obj = -68.76420475841968, rho = -0.2120837178875634
+nSV = 1065, nBSV = 1006
+Done with SVR for sector 24
+Started SVR for sector 25
+****************************Here***************************
+*
+optimization finished, #iter = 116
+nu = 0.002903237891111218
+obj = -1.9561148218899054, rho = -0.5169931349901172
+nSV = 46, nBSV = 33
+Done with SVR for sector 25
+Started SVR for sector 26
+****************************Here***************************
+.*
+optimization finished, #iter = 1295
+nu = 0.0066669776946019724
+obj = -42.74562892174686, rho = -0.4852895942848293
+nSV = 798, nBSV = 763
+Done with SVR for sector 26
+Started SVR for sector 27
+****************************Here***************************
+.......*
+optimization finished, #iter = 7067
+nu = 0.009077664700781562
+obj = -440.7354968689797, rho = 0.30707978961015886
+nSV = 5685, nBSV = 5583
+Done with SVR for sector 27
+Started SVR for sector 28
+****************************Here***************************
+...*
+optimization finished, #iter = 3847
+nu = 0.008421797529910891
+obj = -157.8904389799454, rho = -0.3315924697976176
+nSV = 2727, nBSV = 2646
+Done with SVR for sector 28
+Started SVR for sector 29
+****************************Here***************************
+*
+optimization finished, #iter = 648
+nu = 0.0100497603245027
+obj = -20.716233074416454, rho = -0.39676909866184895
+nSV = 364, nBSV = 335
+Done with SVR for sector 29
+Started SVR for sector 30
+****************************Here***************************
+.*
+optimization finished, #iter = 1311
+nu = 0.008691996902418649
+obj = -51.589152743575006, rho = -0.16150743456060823
+nSV = 664, nBSV = 627
+Done with SVR for sector 30
+Started SVR for sector 31
+****************************Here***************************
+*
+optimization finished, #iter = 458
+nu = 0.006962161544040217
+obj = -10.172666022544325, rho = -0.45929897390669594
+nSV = 233, nBSV = 217
+Done with SVR for sector 31
+Started SVR for sector 32
+****************************Here***************************
+...*
+optimization finished, #iter = 3386
+nu = 0.005983368659577118
+obj = -129.1976583938407, rho = -0.37945814693515045
+nSV = 2156, nBSV = 2093
+Done with SVR for sector 32
+Started SVR for sector 33
+****************************Here***************************
+*
+optimization finished, #iter = 448
+nu = 0.0029840652604372726
+obj = -13.130646907138669, rho = -0.37911207735091107
+nSV = 120, nBSV = 96
+Done with SVR for sector 33
+Started SVR for sector 34
+****************************Here***************************
+*
+optimization finished, #iter = 653
+nu = 0.00678982525855565
+obj = -17.90078517303012, rho = -0.4636993350713859
+nSV = 284, nBSV = 250
+Done with SVR for sector 34
+Started SVR for sector 35
+****************************Here***************************
+*
+optimization finished, #iter = 516
+nu = 0.017441789791827447
+obj = -20.236062767347736, rho = -0.6203579970340491
+nSV = 271, nBSV = 248
+Done with SVR for sector 35
+Started SVR for sector 36
+****************************Here***************************
+*
+optimization finished, #iter = 392
+nu = 0.004825240729570714
+obj = -8.512087231623157, rho = -0.43684553518963476
+nSV = 158, nBSV = 141
+Done with SVR for sector 36
+Started SVR for sector 37
+****************************Here***************************
+*
+optimization finished, #iter = 46
+nu = 0.007876880075148945
+obj = -1.1952483933672622, rho = -0.4890219483151518
+nSV = 22, nBSV = 15
+Done with SVR for sector 37
+Started SVR for sector 38
+****************************Here***************************
+......*
+optimization finished, #iter = 6075
+nu = 0.009197378265350366
+obj = -293.3711396867751, rho = -0.42235273943783785
+nSV = 4432, nBSV = 4340
+Done with SVR for sector 38
+Started SVR for sector 39
+****************************Here***************************
+.*
+optimization finished, #iter = 1186
+nu = 0.010413191032643805
+obj = -45.46338693912968, rho = -0.04936168857051406
+nSV = 748, nBSV = 704
+Done with SVR for sector 39
+Started SVR for sector 40
+****************************Here***************************
+*
+optimization finished, #iter = 933
+nu = 0.004461025732808842
+obj = -25.10842921132708, rho = -0.4741018987015234
+nSV = 406, nBSV = 366
+Done with SVR for sector 40
+Started SVR for sector 41
+****************************Here***************************
+*
+optimization finished, #iter = 795
+nu = 0.008267376496888692
+obj = -18.4094912968308, rho = -0.37587312153641655
+nSV = 364, nBSV = 331
+Done with SVR for sector 41
+Started SVR for sector 42
+****************************Here***************************
+.*
+optimization finished, #iter = 1539
+nu = 0.017883788384754778
+obj = -114.51307056552045, rho = -0.9449884614056107
+nSV = 1266, nBSV = 1231
+Done with SVR for sector 42
+Started SVR for sector 43
+****************************Here***************************
+......*
+optimization finished, #iter = 6913
+nu = 0.0164439910666057
+obj = -462.3349258542376, rho = 0.18626169676713003
+nSV = 4593, nBSV = 4501
+Done with SVR for sector 43
+Started SVR for sector 44
+****************************Here***************************
+*
+optimization finished, #iter = 582
+nu = 0.019902609066976478
+obj = -15.233094087753512, rho = -0.5052062176235049
+nSV = 310, nBSV = 283
+Done with SVR for sector 44
+Started SVR for sector 45
+****************************Here***************************
+..*
+optimization finished, #iter = 2631
+nu = 0.011387581006790904
+obj = -74.98256662394041, rho = -0.4236680221550038
+nSV = 1607, nBSV = 1543
+Done with SVR for sector 45
+Started SVR for sector 46
+****************************Here***************************
+...*
+optimization finished, #iter = 3137
+nu = 0.007058407292496134
+obj = -76.85043657593691, rho = -0.4245839012807563
+nSV = 1726, nBSV = 1653
+Done with SVR for sector 46
+Started SVR for sector 47
+****************************Here***************************
+*
+optimization finished, #iter = 81
+nu = 0.005380212284127743
+obj = -2.4709537092147733, rho = -0.35582431208733994
+nSV = 45, nBSV = 37
+Done with SVR for sector 47
+Started SVR for sector 48
+****************************Here***************************
+.*
+optimization finished, #iter = 1184
+nu = 0.006181363241466088
+obj = -34.86332552241888, rho = -0.5117308240273919
+nSV = 543, nBSV = 512
+Done with SVR for sector 48
+Started SVR for sector 49
+****************************Here***************************
+.*
+optimization finished, #iter = 1648
+nu = 0.005365740551821158
+obj = -46.435276411731614, rho = -0.4237428486126039
+nSV = 822, nBSV = 770
+Done with SVR for sector 49
+Started SVR for sector 50
+****************************Here***************************
+.*
+optimization finished, #iter = 1095
+nu = 0.007276924417678155
+obj = -29.28789029588851, rho = -0.4523814222511891
+nSV = 484, nBSV = 449
+Done with SVR for sector 50
+Started SVR for sector 51
+****************************Here***************************
+.*
+optimization finished, #iter = 1561
+nu = 0.006993778830273227
+obj = -37.6976488935192, rho = -0.10994371463086242
+nSV = 887, nBSV = 854
+Done with SVR for sector 51
+Started SVR for sector 52
+****************************Here***************************
+.*
+optimization finished, #iter = 1643
+nu = 0.007386648889445623
+obj = -47.157418490937154, rho = -0.4137555056492156
+nSV = 774, nBSV = 727
+Done with SVR for sector 52
+Started SVR for sector 53
+****************************Here***************************
+*
+optimization finished, #iter = 644
+nu = 0.009733306171392616
+obj = -31.71474809988669, rho = -0.5122471908969572
+nSV = 355, nBSV = 323
+Done with SVR for sector 53
+Started SVR for sector 54
+****************************Here***************************
+....*
+optimization finished, #iter = 4556
+nu = 0.007334023171158429
+obj = -193.20915668549856, rho = -0.3167073639869328
+nSV = 3257, nBSV = 3179
+Done with SVR for sector 54
+Started SVR for sector 55
+****************************Here***************************
+.*
+optimization finished, #iter = 1777
+nu = 0.009231907130155976
+obj = -93.05739773357072, rho = -0.15118857424846982
+nSV = 994, nBSV = 936
+Done with SVR for sector 55
+Started SVR for sector 56
+****************************Here***************************
+.......*
+optimization finished, #iter = 7714
+nu = 0.006437007642562794
+obj = -347.1762467399631, rho = -0.3206873056242925
+nSV = 5860, nBSV = 5738
+Done with SVR for sector 56
+Started SVR for sector 57
+****************************Here***************************
+....*
+optimization finished, #iter = 4493
+nu = 0.007114717850101042
+obj = -198.25303077054235, rho = -0.36190295673593376
+nSV = 2792, nBSV = 2697
+Done with SVR for sector 57
+Started SVR for sector 58
+****************************Here***************************
+.*
+optimization finished, #iter = 1274
+nu = 0.009226500722403233
+obj = -36.69597418959919, rho = -0.4440205853888674
+nSV = 654, nBSV = 613
+Done with SVR for sector 58
+Started SVR for sector 59
+****************************Here***************************
+.....*
+optimization finished, #iter = 5671
+nu = 0.010273158799850295
+obj = -225.09421828340984, rho = -0.04353962338405542
+nSV = 3292, nBSV = 3202
+Done with SVR for sector 59
+Started SVR for sector 60
+****************************Here***************************
+.*
+optimization finished, #iter = 1819
+nu = 0.007542162488482749
+obj = -58.29273165332976, rho = -0.38222734930673513
+nSV = 939, nBSV = 894
+Done with SVR for sector 60
+Started SVR for sector 61
+****************************Here***************************
+*
+optimization finished, #iter = 770
+nu = 0.00909908822197477
+obj = -27.135933597099594, rho = -1.0092485232188833
+nSV = 342, nBSV = 316
+Done with SVR for sector 61
+Started SVR for sector 62
+****************************Here***************************
+*
+optimization finished, #iter = 144
+nu = 0.00390754531005617
+obj = -4.150272151050846, rho = -0.3696400024782554
+nSV = 60, nBSV = 52
+Done with SVR for sector 62
+Started SVR for sector 63
+****************************Here***************************
+...*
+optimization finished, #iter = 3995
+nu = 0.012989708079691463
+obj = -173.76046718617317, rho = -0.2106566668992882
+nSV = 2457, nBSV = 2374
+Done with SVR for sector 63
+Started SVR for sector 64
+****************************Here***************************
+*
+optimization finished, #iter = 174
+nu = 0.004470008811358342
+obj = -5.732070200303362, rho = -0.5657576929126439
+nSV = 85, nBSV = 71
+Done with SVR for sector 64
+Started SVR for sector 65
+****************************Here***************************
+..*
+optimization finished, #iter = 2545
+nu = 0.011564898865372292
+obj = -81.71222027536811, rho = 0.11824185564368564
+nSV = 1376, nBSV = 1326
+Done with SVR for sector 65
+Started SVR for sector 66
+****************************Here***************************
+..*
+optimization finished, #iter = 2943
+nu = 0.004441777700934066
+obj = -110.359442036076, rho = -0.2725998843853521
+nSV = 1837, nBSV = 1779
+Done with SVR for sector 66
+Started SVR for sector 67
+****************************Here***************************
+...*
+optimization finished, #iter = 3429
+nu = 0.010623066802906686
+obj = -209.37419747389941, rho = -0.240792414074084
+nSV = 2671, nBSV = 2596
+Done with SVR for sector 67
+Started SVR for sector 68
+****************************Here***************************
+*
+optimization finished, #iter = 336
+nu = 0.004471718336340026
+obj = -6.398259560801027, rho = -0.5281310391506835
+nSV = 101, nBSV = 86
+Done with SVR for sector 68
+Started SVR for sector 69
+****************************Here***************************
+.*
+optimization finished, #iter = 1006
+nu = 0.004729579679055581
+obj = -28.601434598534613, rho = -0.43491372665340905
+nSV = 435, nBSV = 396
+Done with SVR for sector 69
+Started SVR for sector 70
+****************************Here***************************
+...*
+optimization finished, #iter = 3392
+nu = 0.01094172853565633
+obj = -157.0160655879866, rho = -0.2739010512867291
+nSV = 2272, nBSV = 2204
+Done with SVR for sector 70
+Started SVR for sector 71
+****************************Here***************************
+.*
+optimization finished, #iter = 1947
+nu = 0.009505682169867915
+obj = -62.04541693406288, rho = -0.5008546917092309
+nSV = 1178, nBSV = 1126
+Done with SVR for sector 71
+Started SVR for sector 72
+****************************Here***************************
+....*
+optimization finished, #iter = 4820
+nu = 0.013812363745352139
+obj = -169.6549787896307, rho = -0.21610994585310203
+nSV = 2652, nBSV = 2586
+Done with SVR for sector 72
+Started SVR for sector 73
+****************************Here***************************
+....*
+optimization finished, #iter = 4468
+nu = 0.00826280084921694
+obj = -156.8781644067676, rho = -0.3504841834970791
+nSV = 2711, nBSV = 2624
+Done with SVR for sector 73
+Started SVR for sector 74
+****************************Here***************************
+.*
+optimization finished, #iter = 1424
+nu = 0.010483995472947582
+obj = -69.88139680888435, rho = -0.18368043006432755
+nSV = 789, nBSV = 747
+Done with SVR for sector 74
+Started SVR for sector 75
+****************************Here***************************
+*
+optimization finished, #iter = 149
+nu = 0.0011918559976699782
+obj = -5.104430751218104, rho = -0.23965734799278487
+nSV = 58, nBSV = 48
+Done with SVR for sector 75
+Started SVR for sector 76
+****************************Here***************************
+*
+optimization finished, #iter = 546
+nu = 0.003020579433640516
+obj = -13.188285485843071, rho = -0.4656130845195727
+nSV = 232, nBSV = 211
+Done with SVR for sector 76
+Started SVR for sector 77
+****************************Here***************************
+*
+optimization finished, #iter = 40
+nu = 0.0015746084499863877
+obj = -1.312076320625618, rho = -0.4248861820698786
+nSV = 19, nBSV = 9
+Done with SVR for sector 77
+Started SVR for sector 78
+****************************Here***************************
+.*
+optimization finished, #iter = 1625
+nu = 0.010749928787130453
+obj = -55.03339379296656, rho = -0.4199758176723712
+nSV = 880, nBSV = 833
+Done with SVR for sector 78
+Started SVR for sector 79
+****************************Here***************************
+.*
+optimization finished, #iter = 1421
+nu = 0.0039279799551890544
+obj = -41.57676786936068, rho = -0.3892357208466243
+nSV = 797, nBSV = 758
+Done with SVR for sector 79
+Started SVR for sector 80
+****************************Here***************************
+...*
+optimization finished, #iter = 3041
+nu = 0.0058502818113715625
+obj = -108.47886615367061, rho = -0.22610579802168262
+nSV = 1752, nBSV = 1683
+Done with SVR for sector 80
+Started SVR for sector 81
+****************************Here***************************
+....*
+optimization finished, #iter = 4818
+nu = 0.010052712838822645
+obj = -190.33621471290854, rho = -0.5813060618528602
+nSV = 3198, nBSV = 3119
+Done with SVR for sector 81
+Started SVR for sector 82
+****************************Here***************************
+*
+optimization finished, #iter = 937
+nu = 0.010484408895903357
+obj = -22.22044579304612, rho = -0.384807809992657
+nSV = 383, nBSV = 353
+Done with SVR for sector 82
+Started SVR for sector 83
+****************************Here***************************
+..............*
+optimization finished, #iter = 14060
+nu = 0.013546488789936329
+obj = -632.86384532339, rho = -0.12020079230283791
+nSV = 10779, nBSV = 10629
+Done with SVR for sector 83
+Started SVR for sector 84
+****************************Here***************************
+..*
+optimization finished, #iter = 2124
+nu = 0.007247999485350776
+obj = -87.26344515466288, rho = -0.004284004623004973
+nSV = 1114, nBSV = 1058
+Done with SVR for sector 84
+Started SVR for sector 85
+****************************Here***************************
+*
+optimization finished, #iter = 870
+nu = 0.0057643186812879055
+obj = -34.81431161234922, rho = -0.5328278879024977
+nSV = 522, nBSV = 498
+Done with SVR for sector 85
+Started SVR for sector 86
+****************************Here***************************
+..*
+optimization finished, #iter = 2298
+nu = 0.014687738173245415
+obj = -100.18862583748957, rho = 0.08431320722733276
+nSV = 1490, nBSV = 1438
+Done with SVR for sector 86
+Started SVR for sector 87
+****************************Here***************************
+.*
+optimization finished, #iter = 1056
+nu = 0.004506622314829673
+obj = -21.47366075124159, rho = -0.3760625806128317
+nSV = 522, nBSV = 489
+Done with SVR for sector 87
+Started SVR for sector 88
+****************************Here***************************
+*
+optimization finished, #iter = 240
+nu = 0.003152934454092215
+obj = -5.525594844181473, rho = -0.4072386830305882
+nSV = 98, nBSV = 88
+Done with SVR for sector 88
+Started SVR for sector 89
+****************************Here***************************
+..*
+optimization finished, #iter = 2280
+nu = 0.0065042381978321255
+obj = -69.76242355734745, rho = -0.40397343732170493
+nSV = 1193, nBSV = 1147
+Done with SVR for sector 89
+Started SVR for sector 90
+****************************Here***************************
+*
+optimization finished, #iter = 658
+nu = 0.008770356192369863
+obj = -18.30786632609768, rho = -0.3814898333666241
+nSV = 321, nBSV = 294
+Done with SVR for sector 90
+Started SVR for sector 91
+****************************Here***************************
+*
+optimization finished, #iter = 339
+nu = 0.004843526598904293
+obj = -12.805757112308656, rho = -0.2579588672132967
+nSV = 160, nBSV = 130
+Done with SVR for sector 91
+Started SVR for sector 92
+****************************Here***************************
+.*
+optimization finished, #iter = 1251
+nu = 0.00639387419651668
+obj = -54.64007194138707, rho = -0.3049837616764078
+nSV = 834, nBSV = 802
+Done with SVR for sector 92
+Started SVR for sector 93
+****************************Here***************************
+*
+optimization finished, #iter = 143
+nu = 0.0012169432080638778
+obj = -5.1307520230584815, rho = -0.40155884291384886
+nSV = 59, nBSV = 43
+Done with SVR for sector 93
+Started SVR for sector 94
+****************************Here***************************
+...................*
+optimization finished, #iter = 19953
+nu = 0.012514899864836834
+obj = -1064.9464683842455, rho = 0.31171965935213014
+nSV = 15737, nBSV = 15562
+Done with SVR for sector 94
+Started SVR for sector 95
+****************************Here***************************
+..*
+optimization finished, #iter = 2429
+nu = 0.006846374043691581
+obj = -89.07498931301338, rho = -0.12108380500731795
+nSV = 1320, nBSV = 1254
+Done with SVR for sector 95
+Started SVR for sector 96
+****************************Here***************************
+*
+optimization finished, #iter = 719
+nu = 0.004015898375483623
+obj = -28.42710600194167, rho = -0.24080262962976862
+nSV = 348, nBSV = 316
+Done with SVR for sector 96
+Started SVR for sector 97
+****************************Here***************************
+.*
+optimization finished, #iter = 1492
+nu = 0.00531679806146233
+obj = -51.32056647754243, rho = -0.4633454046065682
+nSV = 761, nBSV = 719
+Done with SVR for sector 97
+Started SVR for sector 98
+****************************Here***************************
+.........................................*
+optimization finished, #iter = 41402
+nu = 0.019049115490997193
+obj = -2252.2842709579345, rho = 0.31554726970560665
+nSV = 35370, nBSV = 35103
+Done with SVR for sector 98
+Started SVR for sector 99
+****************************Here***************************
+*
+optimization finished, #iter = 293
+nu = 0.003912787737853371
+obj = -13.844503550341905, rho = -0.4477376907088698
+nSV = 117, nBSV = 104
+Done with SVR for sector 99
+Started SVR for sector 100
+****************************Here***************************
+.....*
+optimization finished, #iter = 5309
+nu = 0.010191353983824508
+obj = -285.51412002162596, rho = -0.39348884352363733
+nSV = 4156, nBSV = 4075
+Done with SVR for sector 100
+Started SVR for sector 101
+****************************Here***************************
+*
+optimization finished, #iter = 689
+nu = 0.005005381334213726
+obj = -20.98233524261744, rho = -0.36171224292508636
+nSV = 312, nBSV = 288
+Done with SVR for sector 101
+Started SVR for sector 102
+****************************Here***************************
+.....*
+optimization finished, #iter = 5097
+nu = 0.015279889063516247
+obj = -222.5004663086642, rho = -0.39732912197758813
+nSV = 3906, nBSV = 3821
+Done with SVR for sector 102
+Started SVR for sector 103
+****************************Here***************************
+.*
+optimization finished, #iter = 1160
+nu = 0.013137840171515144
+obj = -46.4617897554022, rho = -0.4901663530148645
+nSV = 567, nBSV = 533
+Done with SVR for sector 103
+Started SVR for sector 104
+****************************Here***************************
+.*
+optimization finished, #iter = 1609
+nu = 0.008717721018281572
+obj = -53.094037339501675, rho = -0.2924727370271491
+nSV = 843, nBSV = 790
+Done with SVR for sector 104
+Started SVR for sector 105
+****************************Here***************************
+....*
+optimization finished, #iter = 4446
+nu = 0.013500136242135538
+obj = -214.94738857404073, rho = -0.19178614209732517
+nSV = 3165, nBSV = 3087
+Done with SVR for sector 105
+Started SVR for sector 106
+****************************Here***************************
+*
+optimization finished, #iter = 468
+nu = 0.00438977447366641
+obj = -13.843619017466118, rho = -0.3821128605844554
+nSV = 212, nBSV = 191
+Done with SVR for sector 106
+Started SVR for sector 107
+****************************Here***************************
+.*
+optimization finished, #iter = 1638
+nu = 0.009502685864983226
+obj = -60.11182308611937, rho = -0.39350588009767734
+nSV = 984, nBSV = 937
+Done with SVR for sector 107
+Started SVR for sector 108
+****************************Here***************************
+.*
+optimization finished, #iter = 1469
+nu = 0.005433463341060388
+obj = -54.23175156033253, rho = -0.1874079408413475
+nSV = 904, nBSV = 861
+Done with SVR for sector 108
+Started SVR for sector 109
+****************************Here***************************
+.*
+optimization finished, #iter = 1755
+nu = 0.007593159479716496
+obj = -46.66718868385698, rho = -0.4349965502737756
+nSV = 950, nBSV = 902
+Done with SVR for sector 109
+Started SVR for sector 110
+****************************Here***************************
+*
+optimization finished, #iter = 350
+nu = 0.007643364777897569
+obj = -2.7158940106765397, rho = -0.3620156863479113
+nSV = 80, nBSV = 61
+Done with SVR for sector 110
+Started SVR for sector 111
+****************************Here***************************
+*
+optimization finished, #iter = 868
+nu = 0.009821319042039582
+obj = -29.73532987599633, rho = -0.22301121898735204
+nSV = 436, nBSV = 406
+Done with SVR for sector 111
+Started SVR for sector 112
+****************************Here***************************
+.*
+optimization finished, #iter = 1323
+nu = 0.00558266409065135
+obj = -36.98965624366998, rho = -0.35497065865023847
+nSV = 744, nBSV = 708
+Done with SVR for sector 112
+Started SVR for sector 113
+****************************Here***************************
+*
+optimization finished, #iter = 558
+nu = 0.003566930058398743
+obj = -15.651852442544717, rho = -0.4649986697312665
+nSV = 303, nBSV = 276
+Done with SVR for sector 113
+Started SVR for sector 114
+****************************Here***************************
+.*
+optimization finished, #iter = 1211
+nu = 0.005025542240760116
+obj = -37.48228052306837, rho = -0.1503017847130609
+nSV = 621, nBSV = 586
+Done with SVR for sector 114
+Started SVR for sector 115
+****************************Here***************************
+...*
+optimization finished, #iter = 3869
+nu = 0.009358652694273262
+obj = -179.33140862764276, rho = -0.5622254535119972
+nSV = 2303, nBSV = 2230
+Done with SVR for sector 115
+Started SVR for sector 116
+****************************Here***************************
+*
+optimization finished, #iter = 758
+nu = 0.004893310336383809
+obj = -22.536580296410303, rho = -0.4747333058725135
+nSV = 336, nBSV = 305
+Done with SVR for sector 116
+Started SVR for sector 117
+****************************Here***************************
+*
+optimization finished, #iter = 190
+nu = 0.00489938770530811
+obj = -8.860206994867731, rho = -0.3291371939054883
+nSV = 88, nBSV = 75
+Done with SVR for sector 117
+Started SVR for sector 118
+****************************Here***************************
+..*
+optimization finished, #iter = 2036
+nu = 0.018719864048627945
+obj = -80.38618121248476, rho = -0.510226498083145
+nSV = 1201, nBSV = 1147
+Done with SVR for sector 118
+Started SVR for sector 119
+****************************Here***************************
+*
+optimization finished, #iter = 428
+nu = 0.007336230260230629
+obj = -17.470950726637287, rho = -0.44023249581452717
+nSV = 215, nBSV = 196
+Done with SVR for sector 119
+Started SVR for sector 120
+****************************Here***************************
+.......*
+optimization finished, #iter = 7175
+nu = 0.010171153125456337
+obj = -346.1142720296963, rho = 0.02187521479056333
+nSV = 4942, nBSV = 4838
+Done with SVR for sector 120
+Started SVR for sector 121
+****************************Here***************************
+*
+optimization finished, #iter = 518
+nu = 0.0068552324320739185
+obj = -14.900231219380313, rho = -0.4979362250714681
+nSV = 227, nBSV = 203
+Done with SVR for sector 121
+Started SVR for sector 122
+****************************Here***************************
+.....*
+optimization finished, #iter = 5189
+nu = 0.010278501270366811
+obj = -191.44741294190734, rho = -0.426364272350636
+nSV = 3612, nBSV = 3522
+Done with SVR for sector 122
+Started SVR for sector 123
+****************************Here***************************
+....*
+optimization finished, #iter = 4640
+nu = 0.010550213536814597
+obj = -174.95114873857102, rho = -0.16819228584203372
+nSV = 2917, nBSV = 2839
+Done with SVR for sector 123
+Started SVR for sector 124
+****************************Here***************************
+*
+optimization finished, #iter = 121
+nu = 0.01784739658059016
+obj = -3.3467771862506672, rho = -0.42707069918109075
+nSV = 36, nBSV = 26
+Done with SVR for sector 124
+Started SVR for sector 125
+****************************Here***************************
+.*
+optimization finished, #iter = 1383
+nu = 0.006407842641825362
+obj = -47.002922011953196, rho = -0.2793193853255623
+nSV = 836, nBSV = 794
+Done with SVR for sector 125
+Started SVR for sector 126
+****************************Here***************************
+.......*
+optimization finished, #iter = 7361
+nu = 0.006457531229930479
+obj = -272.9696842697249, rho = -0.40172752236637826
+nSV = 4248, nBSV = 4118
+Done with SVR for sector 126
+Started SVR for sector 127
+****************************Here***************************
+..*
+optimization finished, #iter = 2956
+nu = 0.01026028305695815
+obj = -89.37902993860168, rho = -0.31574986702146474
+nSV = 1501, nBSV = 1441
+Done with SVR for sector 127
+Started SVR for sector 128
+****************************Here***************************
+.*
+optimization finished, #iter = 1014
+nu = 0.015061139649689298
+obj = -31.124839001328795, rho = -0.6407129257611222
+nSV = 518, nBSV = 484
+Done with SVR for sector 128
+Started SVR for sector 129
+****************************Here***************************
+..*
+optimization finished, #iter = 2497
+nu = 0.011265583630194
+obj = -90.02532368489557, rho = -0.4152962338138331
+nSV = 1486, nBSV = 1419
+Done with SVR for sector 129
+Started SVR for sector 130
+****************************Here***************************
+*
+optimization finished, #iter = 73
+nu = 0.0025561224232240835
+obj = -1.1354982601236494, rho = -0.538187856961869
+nSV = 19, nBSV = 11
+Done with SVR for sector 130
+Started SVR for sector 131
+****************************Here***************************
+*
+optimization finished, #iter = 805
+nu = 0.006018736916337597
+obj = -24.943647160090052, rho = -0.6857565084529912
+nSV = 421, nBSV = 392
+Done with SVR for sector 131
+Started SVR for sector 132
+****************************Here***************************
+*
+optimization finished, #iter = 694
+nu = 0.008479358209169074
+obj = -22.135409364266305, rho = -0.271135184688831
+nSV = 327, nBSV = 293
+Done with SVR for sector 132
+Started SVR for sector 133
+****************************Here***************************
+*
+optimization finished, #iter = 299
+nu = 0.008559628428418807
+obj = -12.653431088593914, rho = -0.2793713995047635
+nSV = 107, nBSV = 89
+Done with SVR for sector 133
+Started SVR for sector 134
+****************************Here***************************
+....*
+optimization finished, #iter = 4680
+nu = 0.010084245697012462
+obj = -209.2348979827191, rho = -0.2394145484738546
+nSV = 2957, nBSV = 2879
+Done with SVR for sector 134
+Started SVR for sector 135
+****************************Here***************************
+.....*
+optimization finished, #iter = 5776
+nu = 0.0114856569526688
+obj = NaN, rho = -0.2272522329768161
+nSV = 4763, nBSV = 4678
+Done with SVR for sector 135
+Started SVR for sector 136
+****************************Here***************************
+.*
+optimization finished, #iter = 1997
+nu = 0.006735682282990091
+obj = -61.93503196849001, rho = -0.3526875810264871
+nSV = 1230, nBSV = 1183
+Done with SVR for sector 136
+Started SVR for sector 137
+****************************Here***************************
+..*
+optimization finished, #iter = 2181
+nu = 0.007336181562608203
+obj = -64.85536973043442, rho = -0.44453280728529565
+nSV = 1187, nBSV = 1130
+Done with SVR for sector 137
+Started SVR for sector 138
+****************************Here***************************
+.*
+optimization finished, #iter = 1956
+nu = 0.006066238998559653
+obj = -73.96064299861128, rho = -0.3155025701687039
+nSV = 1164, nBSV = 1121
+Done with SVR for sector 138
+Started SVR for sector 139
+****************************Here***************************
+.*
+optimization finished, #iter = 1343
+nu = 0.0053544510216180586
+obj = -43.431434420982, rho = -0.2921649337893852
+nSV = 715, nBSV = 673
+Done with SVR for sector 139
+Started SVR for sector 140
+****************************Here***************************
+..*
+optimization finished, #iter = 2729
+nu = 0.006702854783962481
+obj = -129.21564796038012, rho = -0.19909022824535905
+nSV = 1744, nBSV = 1684
+Done with SVR for sector 140
+Started SVR for sector 141
+****************************Here***************************
+.*
+optimization finished, #iter = 1554
+nu = 0.009208986321277689
+obj = -45.311944994576294, rho = -0.44404081618343505
+nSV = 765, nBSV = 719
+Done with SVR for sector 141
+Started SVR for sector 142
+****************************Here***************************
+*
+optimization finished, #iter = 205
+nu = 0.01347772357908705
+obj = -3.6074151691443603, rho = -0.6263096423990214
+nSV = 72, nBSV = 53
+Done with SVR for sector 142
+Started SVR for sector 143
+****************************Here***************************
+...*
+optimization finished, #iter = 3148
+nu = 0.014795229041255627
+obj = -136.86779816084223, rho = -0.010612899782085546
+nSV = 2177, nBSV = 2103
+Done with SVR for sector 143
+Started SVR for sector 144
+****************************Here***************************
+.*
+optimization finished, #iter = 1362
+nu = 0.007341399701379515
+obj = -36.08029099584918, rho = -0.5352542781381666
+nSV = 769, nBSV = 725
+Done with SVR for sector 144
+Started SVR for sector 145
+****************************Here***************************
+.*
+optimization finished, #iter = 1215
+nu = 0.004009185064358153
+obj = -48.03333392127204, rho = -0.2880554627811097
+nSV = 621, nBSV = 582
+Done with SVR for sector 145
+Started SVR for sector 146
+****************************Here***************************
+*
+optimization finished, #iter = 386
+nu = 0.005804134092748191
+obj = -14.3179336127704, rho = -0.35594661104012015
+nSV = 159, nBSV = 133
+Done with SVR for sector 146
+Started SVR for sector 147
+****************************Here***************************
+..*
+optimization finished, #iter = 2638
+nu = 0.003411453837349349
+obj = -107.35957755054305, rho = -0.3407280116552261
+nSV = 1673, nBSV = 1613
+Done with SVR for sector 147
+Started SVR for sector 148
+****************************Here***************************
+.....*
+optimization finished, #iter = 5476
+nu = 0.012118310720994863
+obj = -233.2953264552131, rho = -0.05464181825263618
+nSV = 3778, nBSV = 3695
+Done with SVR for sector 148
+Started SVR for sector 149
+****************************Here***************************
+*
+optimization finished, #iter = 329
+nu = 0.004031577173305305
+obj = -7.948956574067492, rho = -0.38047406568074893
+nSV = 135, nBSV = 120
+Done with SVR for sector 149
+Started SVR for sector 150
+****************************Here***************************
+..*
+optimization finished, #iter = 2119
+nu = 0.006752361856495262
+obj = -83.68750484507835, rho = -0.4714221505361142
+nSV = 1239, nBSV = 1176
+Done with SVR for sector 150
+Started SVR for sector 151
+****************************Here***************************
+*
+optimization finished, #iter = 536
+nu = 0.007271500362131975
+obj = -10.76098276467567, rho = -0.5892217546125991
+nSV = 271, nBSV = 252
+Done with SVR for sector 151
+Started SVR for sector 152
+****************************Here***************************
+.*
+optimization finished, #iter = 1067
+nu = 0.0031231673651297203
+obj = -36.391570817952555, rho = -0.31287155842830333
+nSV = 469, nBSV = 432
+Done with SVR for sector 152
+Started SVR for sector 153
+****************************Here***************************
+......*
+optimization finished, #iter = 6863
+nu = 0.014370060678242483
+obj = -250.49985712223952, rho = 0.03505891371792704
+nSV = 4943, nBSV = 4841
+Done with SVR for sector 153
+Started SVR for sector 154
+****************************Here***************************
+..*
+optimization finished, #iter = 2399
+nu = 0.010446824629241715
+obj = -83.61568377314967, rho = -0.33533701700895696
+nSV = 1711, nBSV = 1661
+Done with SVR for sector 154
+Started SVR for sector 155
+****************************Here***************************
+*
+optimization finished, #iter = 613
+nu = 0.005005434977598841
+obj = -25.04931880974172, rho = -0.4444657560616545
+nSV = 310, nBSV = 291
+Done with SVR for sector 155
+Started SVR for sector 156
+****************************Here***************************
+....*
+optimization finished, #iter = 4093
+nu = 0.00687853279161107
+obj = -152.56143381085127, rho = -0.13663691507689102
+nSV = 2643, nBSV = 2579
+Done with SVR for sector 156
+Started SVR for sector 157
+****************************Here***************************
+....*
+optimization finished, #iter = 4403
+nu = 0.009083711567808118
+obj = -124.74366120255365, rho = -0.2939343120416494
+nSV = 2566, nBSV = 2491
+Done with SVR for sector 157
+Started SVR for sector 158
+****************************Here***************************
+.....*
+optimization finished, #iter = 5443
+nu = 0.011357368710556742
+obj = -204.27263332850958, rho = 0.0017422275503699886
+nSV = 4341, nBSV = 4255
+Done with SVR for sector 158
+Started SVR for sector 159
+****************************Here***************************
+......*
+optimization finished, #iter = 6728
+nu = 0.013207312694997362
+obj = -344.19532483248236, rho = -0.03982315887958374
+nSV = 3932, nBSV = 3862
+Done with SVR for sector 159
+Started SVR for sector 160
+****************************Here***************************
+.*
+optimization finished, #iter = 1862
+nu = 0.006026466438478624
+obj = -60.40536835112584, rho = -0.2211243632148975
+nSV = 1018, nBSV = 966
+Done with SVR for sector 160
+Started SVR for sector 161
+****************************Here***************************
+.*
+optimization finished, #iter = 1254
+nu = 0.005780780033664153
+obj = -43.11231357627626, rho = -0.12316942285655375
+nSV = 660, nBSV = 625
+Done with SVR for sector 161
+Started SVR for sector 162
+****************************Here***************************
+*
+optimization finished, #iter = 309
+nu = 0.002277509466403296
+obj = -21.202833814297534, rho = -0.42768908763973423
+nSV = 140, nBSV = 117
+Done with SVR for sector 162
+Started SVR for sector 163
+****************************Here***************************
+..*
+optimization finished, #iter = 2257
+nu = 0.005755366233468494
+obj = -84.285417831239, rho = -0.5339962651746357
+nSV = 1414, nBSV = 1355
+Done with SVR for sector 163
+Started SVR for sector 164
+****************************Here***************************
+*
+optimization finished, #iter = 269
+nu = 0.0011816904989921816
+obj = -7.659008901066372, rho = -0.4191268541823568
+nSV = 95, nBSV = 79
+Done with SVR for sector 164
+Started SVR for sector 165
+****************************Here***************************
+*
+optimization finished, #iter = 791
+nu = 0.007948977113673974
+obj = -41.14196328506072, rho = -0.7449272038906123
+nSV = 554, nBSV = 522
+Done with SVR for sector 165
+Started SVR for sector 166
+****************************Here***************************
+*
+optimization finished, #iter = 947
+nu = 0.004804242023927363
+obj = -31.600665380672805, rho = -1.0585654482044655
+nSV = 387, nBSV = 350
+Done with SVR for sector 166
+Started SVR for sector 167
+****************************Here***************************
+.*
+optimization finished, #iter = 1347
+nu = 0.0069039652346116085
+obj = -45.56104048958387, rho = -0.32861157176565203
+nSV = 839, nBSV = 800
+Done with SVR for sector 167
+Started SVR for sector 168
+****************************Here***************************
+.*
+optimization finished, #iter = 1159
+nu = 0.007341647653489531
+obj = -54.161999413734634, rho = -0.488492436588609
+nSV = 827, nBSV = 795
+Done with SVR for sector 168
+Started SVR for sector 169
+****************************Here***************************
+.*
+optimization finished, #iter = 1020
+nu = 0.0024505970035379023
+obj = -42.182206318579404, rho = -0.5360745543195045
+nSV = 508, nBSV = 470
+Done with SVR for sector 169
+Started SVR for sector 170
+****************************Here***************************
+.*
+optimization finished, #iter = 1764
+nu = 0.007466121325569477
+obj = -72.83893320618897, rho = -0.14902421558162765
+nSV = 1053, nBSV = 934
+Done with SVR for sector 170
+Started SVR for sector 171
+****************************Here***************************
+*
+optimization finished, #iter = 465
+nu = 0.007863048768640647
+obj = -8.201600253066283, rho = -0.3991443903035872
+nSV = 198, nBSV = 173
+Done with SVR for sector 171
+Started SVR for sector 172
+****************************Here***************************
+.*
+optimization finished, #iter = 1537
+nu = 0.004872921199526324
+obj = -56.1057375777367, rho = -0.3884121056280501
+nSV = 833, nBSV = 787
+Done with SVR for sector 172
+Started SVR for sector 173
+****************************Here***************************
+.*
+optimization finished, #iter = 1878
+nu = 0.007020641946181764
+obj = -54.93042850990176, rho = -0.31715067702743255
+nSV = 1050, nBSV = 1000
+Done with SVR for sector 173
+Started SVR for sector 174
+****************************Here***************************
+..*
+optimization finished, #iter = 2139
+nu = 0.0041556038218579765
+obj = NaN, rho = -0.29411889902913574
+nSV = 1164, nBSV = 1119
+Done with SVR for sector 174
+Started SVR for sector 175
+****************************Here***************************
+..*
+optimization finished, #iter = 2071
+nu = 0.0052442689445082406
+obj = -53.67846840494095, rho = -0.3234193961026828
+nSV = 957, nBSV = 904
+Done with SVR for sector 175
+Started SVR for sector 176
+****************************Here***************************
+....*
+optimization finished, #iter = 4187
+nu = 0.007109881699318853
+obj = -136.24341354957295, rho = -0.2658485139305052
+nSV = 2911, nBSV = 2849
+Done with SVR for sector 176
+Started SVR for sector 177
+****************************Here***************************
+...*
+optimization finished, #iter = 3742
+nu = 0.00836645270045349
+obj = -140.3690202561671, rho = -0.42430724868108305
+nSV = 2536, nBSV = 2465
+Done with SVR for sector 177
+Started SVR for sector 178
+****************************Here***************************
+..*
+optimization finished, #iter = 2047
+nu = 0.010463631773418289
+obj = -64.70298646699564, rho = -0.3206076829658423
+nSV = 1203, nBSV = 1157
+Done with SVR for sector 178
+Started SVR for sector 179
+****************************Here***************************
+.*
+optimization finished, #iter = 1059
+nu = 0.009086669488784019
+obj = -42.980403090762415, rho = -0.2439295735634132
+nSV = 557, nBSV = 518
+Done with SVR for sector 179
+Started SVR for sector 180
+****************************Here***************************
+..*
+optimization finished, #iter = 2738
+nu = 0.009018278994349139
+obj = -103.77517838235156, rho = -0.7748506157801993
+nSV = 1919, nBSV = 1872
+Done with SVR for sector 180
+Started SVR for sector 181
+****************************Here***************************
+..*
+optimization finished, #iter = 2106
+nu = 0.004928851731578711
+obj = -70.08337489551873, rho = -0.4949917265018389
+nSV = 1272, nBSV = 1226
+Done with SVR for sector 181
+Started SVR for sector 182
+****************************Here***************************
+.*
+optimization finished, #iter = 1791
+nu = 0.008413521621827348
+obj = -66.67500459645937, rho = -0.32933641235241423
+nSV = 1045, nBSV = 994
+Done with SVR for sector 182
+Started SVR for sector 183
+****************************Here***************************
+...*
+optimization finished, #iter = 3251
+nu = 0.006420595833383287
+obj = -85.68021362519396, rho = -0.530594398052943
+nSV = 1794, nBSV = 1733
+Done with SVR for sector 183
+Started SVR for sector 184
+****************************Here***************************
+.*
+optimization finished, #iter = 1398
+nu = 0.019651528766718215
+obj = -52.51436129925101, rho = -0.14516257407412753
+nSV = 566, nBSV = 515
+Done with SVR for sector 184
+Started SVR for sector 185
+****************************Here***************************
+....*
+optimization finished, #iter = 4769
+nu = 0.016324926717469893
+obj = -345.3848724130797, rho = -0.6857481425588488
+nSV = 3914, nBSV = 3843
+Done with SVR for sector 185
+Started SVR for sector 186
+****************************Here***************************
+.*
+optimization finished, #iter = 1824
+nu = 0.008352760649031671
+obj = -44.757611812053625, rho = -0.6384658227457967
+nSV = 944, nBSV = 893
+Done with SVR for sector 186
+Started SVR for sector 187
+****************************Here***************************
+*
+optimization finished, #iter = 391
+nu = 0.0027320356081250224
+obj = -10.127947502181373, rho = -0.4828169628417426
+nSV = 137, nBSV = 118
+Done with SVR for sector 187
+Started SVR for sector 188
+****************************Here***************************
+*
+optimization finished, #iter = 855
+nu = 0.005236727231381349
+obj = -38.24571664339712, rho = -0.17787958931666822
+nSV = 486, nBSV = 457
+Done with SVR for sector 188
+Started SVR for sector 189
+****************************Here***************************
+...*
+optimization finished, #iter = 3726
+nu = 0.006010897066746769
+obj = -130.8252066333606, rho = -0.23099915192907436
+nSV = 2262, nBSV = 2195
+Done with SVR for sector 189
+Started SVR for sector 190
+****************************Here***************************
+*
+optimization finished, #iter = 277
+nu = 0.004394914181828117
+obj = -8.758676080167485, rho = -0.5034346455329498
+nSV = 132, nBSV = 113
+Done with SVR for sector 190
+Started SVR for sector 191
+****************************Here***************************
+.......*
+optimization finished, #iter = 7306
+nu = 0.018911680773669955
+obj = -365.47669466348555, rho = -0.04554038792699094
+nSV = 6851, nBSV = 6753
+Done with SVR for sector 191
+Started SVR for sector 192
+****************************Here***************************
+*
+optimization finished, #iter = 440
+nu = 0.006946929767254666
+obj = -8.488894893732544, rho = -0.49057233515653964
+nSV = 179, nBSV = 159
+Done with SVR for sector 192
+Started SVR for sector 193
+****************************Here***************************
+*
+optimization finished, #iter = 238
+nu = 0.0019855258610744467
+obj = -4.994573261195397, rho = -0.5636529267153442
+nSV = 80, nBSV = 64
+Done with SVR for sector 193
+Started SVR for sector 194
+****************************Here***************************
+*
+optimization finished, #iter = 342
+nu = 0.005745988275112602
+obj = -12.98746318468748, rho = -0.4115654984383299
+nSV = 139, nBSV = 121
+Done with SVR for sector 194
+Started SVR for sector 195
+****************************Here***************************
+.*
+optimization finished, #iter = 1764
+nu = 0.007962436656842688
+obj = -75.78507400283735, rho = -0.4084234673530621
+nSV = 1146, nBSV = 1093
+Done with SVR for sector 195
+Started SVR for sector 196
+****************************Here***************************
+..*
+optimization finished, #iter = 2912
+nu = 0.00537920053110866
+obj = -97.61965055620581, rho = -0.23685987696106908
+nSV = 1676, nBSV = 1615
+Done with SVR for sector 196
+Started SVR for sector 197
+****************************Here***************************
+*
+optimization finished, #iter = 347
+nu = 0.008576622805699098
+obj = -11.85369857530499, rho = -0.4541008529657501
+nSV = 175, nBSV = 154
+Done with SVR for sector 197
+Started SVR for sector 198
+****************************Here***************************
+*
+optimization finished, #iter = 644
+nu = 0.017989165293986142
+obj = -23.517197270770147, rho = -0.3875395563372279
+nSV = 276, nBSV = 244
+Done with SVR for sector 198
+Started SVR for sector 199
+****************************Here***************************
+....*
+optimization finished, #iter = 4704
+nu = 0.00815667066031123
+obj = -186.01065141235136, rho = -0.467388820603382
+nSV = 3275, nBSV = 3204
+Done with SVR for sector 199
+Started SVR for sector 200
+****************************Here***************************
+.*
+optimization finished, #iter = 1031
+nu = 0.00899240124397263
+obj = -26.344716650328078, rho = -0.530603649241116
+nSV = 522, nBSV = 488
+Done with SVR for sector 200
+Started SVR for sector 201
+****************************Here***************************
+*
+optimization finished, #iter = 688
+nu = 0.0035346393396034604
+obj = -23.58628506049497, rho = -0.41697615141323824
+nSV = 350, nBSV = 322
+Done with SVR for sector 201
+Started SVR for sector 202
+****************************Here***************************
+*
+optimization finished, #iter = 322
+nu = 0.002739534190752302
+obj = -6.0832547431509765, rho = -0.5092354981851877
+nSV = 140, nBSV = 121
+Done with SVR for sector 202
+Started SVR for sector 203
+****************************Here***************************
+..*
+optimization finished, #iter = 2536
+nu = 0.007264007846611605
+obj = -119.91784469379523, rho = -0.2758573363746552
+nSV = 1683, nBSV = 1626
+Done with SVR for sector 203
+Started SVR for sector 204
+****************************Here***************************
+.*
+optimization finished, #iter = 1588
+nu = 0.0042679876928638635
+obj = -37.26488145553827, rho = -0.4146141468338693
+nSV = 681, nBSV = 641
+Done with SVR for sector 204
+Started SVR for sector 205
+****************************Here***************************
+..*
+optimization finished, #iter = 2578
+nu = 0.010194380628832031
+obj = -89.6077234302741, rho = -0.207945616339282
+nSV = 1614, nBSV = 1557
+Done with SVR for sector 205
+Started SVR for sector 206
+****************************Here***************************
+*
+optimization finished, #iter = 350
+nu = 0.0029700887706207973
+obj = -10.10282334531491, rho = -0.4336022044912356
+nSV = 123, nBSV = 101
+Done with SVR for sector 206
+Started SVR for sector 207
+****************************Here***************************
+*
+optimization finished, #iter = 84
+nu = 0.003372031053227967
+obj = -0.5469576295834149, rho = -0.5563133716277824
+nSV = 14, nBSV = 5
+Done with SVR for sector 207
+Started SVR for sector 208
+****************************Here***************************
+*
+optimization finished, #iter = 231
+nu = 0.003770162559646548
+obj = -5.712842543930636, rho = -0.4811987323305725
+nSV = 122, nBSV = 106
+Done with SVR for sector 208
+Started SVR for sector 209
+****************************Here***************************
+.*
+optimization finished, #iter = 1452
+nu = 0.006338367794474522
+obj = NaN, rho = -0.4067256245662488
+nSV = 829, nBSV = 782
+Done with SVR for sector 209
+Started SVR for sector 210
+****************************Here***************************
+*
+optimization finished, #iter = 864
+nu = 0.006170209690018489
+obj = -22.355644862105223, rho = -0.36786139377927385
+nSV = 485, nBSV = 455
+Done with SVR for sector 210
+Started SVR for sector 211
+****************************Here***************************
+..*
+optimization finished, #iter = 2664
+nu = 0.009236006979980994
+obj = -131.2752831410632, rho = -0.42895028837822624
+nSV = 1866, nBSV = 1812
+Done with SVR for sector 211
+Started SVR for sector 212
+****************************Here***************************
+.*
+optimization finished, #iter = 1111
+nu = 0.006053712851721732
+obj = -45.54827839081889, rho = -0.337388607784496
+nSV = 593, nBSV = 557
+Done with SVR for sector 212
+Started SVR for sector 213
+****************************Here***************************
+*
+optimization finished, #iter = 53
+nu = 0.03239432397922833
+obj = -0.7932522021712541, rho = -0.4810937319702005
+nSV = 27, nBSV = 19
+Done with SVR for sector 213
+Started SVR for sector 214
+****************************Here***************************
+.......*
+optimization finished, #iter = 7753
+nu = 0.010711115666181983
+obj = -297.0488606002622, rho = -0.17026463081265839
+nSV = 5191, nBSV = 5082
+Done with SVR for sector 214

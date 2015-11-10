@@ -160,7 +160,7 @@ public class svm_train {
 		param.C = 1;
 		param.eps = 1e-3;
 		param.p = 0.1;
-		param.shrinking = 1;
+		param.shrinking = 0;
 		param.probability = 0;
 		param.nr_weight = 0;
 		param.weight_label = new int[0];
