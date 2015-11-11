@@ -1,4 +1,5 @@
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.PrintWriter;
 
@@ -20,6 +21,10 @@ public class getActualPriceFromPredictions {
 
         try {
             String dCurrentLine = null;
+            File f = new File("data/TempPredictions/" + ticker+".output");
+            if(!f.exists()) {
+                return;
+            }
             BufferedReader dbr = new BufferedReader(new FileReader("data/TempPredictions/" + ticker +".output"));
             PrintWriter writer = new PrintWriter("data/FinalPredictions/" + ticker+".output", "UTF-8");
             while ((dCurrentLine = dbr.readLine()) != null) {
@@ -39,12 +44,16 @@ public class getActualPriceFromPredictions {
 
 
             BufferedReader sbr = new BufferedReader(new FileReader("data/predictionProcessingData.txt"));
-            String sCurrentLine = sbr.readLine();
-            String [] arr = sCurrentLine.split(",");
-            String ticker = arr[0];
-            Double price1 =  Double.parseDouble(arr[3]);
-            Double price2 = Double.parseDouble(arr[4]);
-            getPrices(ticker,price1,price2);
+            String sCurrentLine = null;
+            int count=0;
+            while(( sCurrentLine = sbr.readLine()) != null) {
+                String[] arr = sCurrentLine.split(",");
+                String ticker = arr[0];
+                Double price1 = Double.parseDouble(arr[3]);
+                Double price2 = Double.parseDouble(arr[4]);
+                getPrices(ticker, price1, price2);
+                System.out.println(++count+" : "+ticker);
+            }
         }
         catch (Exception e)
         {
